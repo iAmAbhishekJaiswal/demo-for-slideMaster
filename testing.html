@@ -1,0 +1,53 @@
+<html>
+      <head>
+           <style>
+           	  .me{
+           	      width:95%;
+                     height:50px;
+                     border:solid 2px black;
+                     margin:10px auto;
+                     text-align: center;
+                     padding-top:50px;
+           
+                }
+           
+           </style>
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+         <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/iAmAbhishekJaiswal/slideMaster@main/slideMaster.js"> </script>
+      </head>
+      <body>
+             <div class="me"> Element 1 </div>
+             <div class="me"> Element 2  </div>
+                  
+                  
+             <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/iAmAbhishekJaiswal/slideMaster@main/slideMaster.js"> </script>
+            <script>
+            	
+                
+            	var data={
+            	      rightSlideColor :"#5cb85c",
+                      leftSlideColor  : "#f0ad4e",
+                      rightSlideFunction : fun1,
+                      leftSlideFunction : fun2,
+                      range: 0.7
+                      
+                  };
+                  
+                  
+            	 $('.me').slideMaster(data);
+            
+                function fun1() {
+                	console.log('hi');
+                
+                }
+                
+                function fun2(){
+                	console.log('hello');
+                
+                }
+                
+            </script>
+            
+           
+      </body>
+</html>
