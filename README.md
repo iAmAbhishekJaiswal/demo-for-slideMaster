@@ -1,2 +1,2 @@
-# demo-for-slideMaster-
-simple demo for slideMaster 
+# demo-for-swipeMe-
+simple demo for SwipeMe 
